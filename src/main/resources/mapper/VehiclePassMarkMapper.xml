@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.example.tkmybaitsdemo.mapper.VehiclePassMarkMapper" >
+  <resultMap id="BaseResultMap" type="com.example.tkmybaitsdemo.entity.VehiclePassMark" >
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" property="id" jdbcType="INTEGER" />
+    <result column="create_time" property="createTime" jdbcType="TIMESTAMP" />
+    <result column="update_time" property="updateTime" jdbcType="TIMESTAMP" />
+    <result column="creator" property="creator" jdbcType="VARCHAR" />
+    <result column="updater" property="updater" jdbcType="VARCHAR" />
+    <result column="is_deleted" property="isDeleted" jdbcType="VARCHAR" />
+    <result column="enable" property="enable" jdbcType="TINYINT" />
+    <result column="bul_catalog" property="bulCatalog" jdbcType="VARCHAR" />
+    <result column="gov_platform" property="govPlatform" jdbcType="VARCHAR" />
+    <result column="ent_platform" property="entPlatform" jdbcType="VARCHAR" />
+    <result column="train_code" property="trainCode" jdbcType="VARCHAR" />
+    <result column="anno_type" property="annoType" jdbcType="VARCHAR" />
+    <result column="task_type" property="taskType" jdbcType="VARCHAR" />
+    <result column="status" property="status" jdbcType="VARCHAR" />
+    <result column="plan_start_date" property="planStartDate" jdbcType="DATE" />
+    <result column="plan_end_date" property="planEndDate" jdbcType="DATE" />
+    <result column="act_start_time" property="actStartTime" jdbcType="DATE" />
+    <result column="act_end_time" property="actEndTime" jdbcType="DATE" />
+    <result column="remark" property="remark" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
